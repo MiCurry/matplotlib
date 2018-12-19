@@ -154,8 +154,8 @@ plt.show()
 # properties to configure its appearance.  The figure itself contains a
 # :class:`~matplotlib.patches.Rectangle` exactly the size of the figure,
 # which you can use to set the background color and transparency of the
-# figures.  Likewise, each :class:`~matplotlib.axes.Axes` bounding box
-# (the standard white box with black edges in the typical matplotlib
+# figures.  Likewise, each :class:`~matplotlib.axes.Axes` bounding box,
+# the standard white box with black edges in the typical matplotlib
 # plot, has a ``Rectangle`` instance that determines the color,
 # transparency, and other properties of the Axes.  These instances are
 # stored as member variables :attr:`Figure.patch
